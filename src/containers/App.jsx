@@ -16,6 +16,7 @@ import systemIsDark from "../lib/systemIsDark";
 
 function NoMatch() {
   const history = useHistory();
+  console.log('123');
 
   return (
     <NotFound>
